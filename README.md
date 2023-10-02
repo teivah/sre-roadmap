@@ -2,6 +2,8 @@
 
 An opinionated roadmap to become SRE (Concepts > Tools)
 
+## Roadmap
+
 * _Distributed systems_
   * _Concepts_
     * Fallacies of distributed computing
@@ -10,7 +12,6 @@ An opinionated roadmap to become SRE (Concepts > Tools)
     * Exactly-once delivery
     * Different types of message failure
     * Orchestration vs. choreography
-    * Average connection speed of a user
     * Causality
     * CDN
     * _Hashing_
@@ -53,10 +54,9 @@ An opinionated roadmap to become SRE (Concepts > Tools)
       * Relational vs. document
       * Column-oriented databases
       * Graph databases
-      * Objects-based storage
       * Vector database
+      * Objects-based storage
     * ACID
-    * Anti-entropy
     * _Partitioning_
       * Criteria
       * Methods
@@ -95,13 +95,14 @@ An opinionated roadmap to become SRE (Concepts > Tools)
     * WAL
     * Write and read amplification
   * _Data structure_
-    * Bloom filter
-    * Count-min sketch
-    * HyperLogLog
-    * LSM tree
-    * B-tree
-    * Merkle tree
-    * SSTable
+    * _Probabilistic data structures_
+      * Bloom filter
+      * Count-min sketch
+      * HyperLogLog
+    * _Storage_
+      * LSM tree
+      * B-tree
+      * SSTable
 * _Reliability_
   * _Concepts_
     * Difference between availability, resiliency, robustness, fault-tolerance, and reliability
@@ -116,7 +117,6 @@ An opinionated roadmap to become SRE (Concepts > Tools)
       * Ceiling
     * Number one source of outages
     * Tail tolerance
-    * SRE role
     * Toil
   * _Patterns/Anti-patterns_
     * Bulkhead pattern
@@ -126,8 +126,6 @@ An opinionated roadmap to become SRE (Concepts > Tools)
     * Graceful degradation
     * Load shedding
     * Retry amplification
-    * Phi-accrual failure detector
-    * Query of death
     * Backpressure
     * Rate limiting
     * Request hedging
@@ -143,9 +141,8 @@ An opinionated roadmap to become SRE (Concepts > Tools)
     * Streetlight anti-method
     * Time-series based monitoring lies
     * USE method
-    * VALET dashboard
-    * Why should we be careful about average performance metrics
     * Main metrics for cache
+    * Why should we be careful about average performance metrics
   * _Alerting_
     * Alerting strategy
     * Alerting fatigue concept
@@ -176,16 +173,6 @@ An opinionated roadmap to become SRE (Concepts > Tools)
 * _Container_
   * Container
   * Container orchestration
-* _Analysis_
-  * Core analysis loop
-  * Correlation vs. causation
-  * First principle
-  * Five whys technique
-  * _Incident management_
-    * How to address an incident (assess, mitigate, resolve)
-    * Incident roles
-    * How to write a postmortem
-    * 3C principles (Coordinate, Communicate, maintain Control)
 * _Linux_
   * Scripting
   * Filesystem
@@ -228,7 +215,18 @@ An opinionated roadmap to become SRE (Concepts > Tools)
   * TLS
   * PKI
   * Signature
+* _Analysis_
+  * Core analysis loop
+  * Correlation vs. causation
+  * First principle
+  * Five whys technique
+  * _Incident management_
+    * How to address an incident (assess, mitigate, resolve)
+    * Incident roles
+    * How to write a postmortem
+    * 3C principles (Coordinate, Communicate, maintain Control)
 * _Other_
+  * SRE role
   * Version control
 * _Soft skills_
   * _Communication_
