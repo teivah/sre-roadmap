@@ -1,6 +1,6 @@
 # SRE Roadmap
 
-An opinionated roadmap to become SRE (Concepts > Tools)
+An opinionated roadmap to become an SRE (Concepts > Tools)
 
 ## Roadmap
 
