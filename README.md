@@ -229,7 +229,6 @@ An opinionated roadmap to become SRE -- Concepts > Tools
   * PKI
   * Signature
 * _Other_
-  * Backward vs. forward compatibility
   * Version control
 * _Soft skills_
   * _Communication_
