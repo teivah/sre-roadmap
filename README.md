@@ -1,8 +1,6 @@
 # SRE Roadmap
 
-An Opinionated Roadmap to Become SRE
-
-Concepts > Tools
+An opinionated roadmap to become SRE -- Concepts > Tools
 
 * _Distributed systems_
   * _Concepts_
@@ -238,4 +236,8 @@ Concepts > Tools
     * Writing
     * Oral
     * Presentation
+  * Collaboration
   * Problem solving
+  * Curiosity
+  * Navigating ambiguity
+  * Staying humble
