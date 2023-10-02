@@ -7,51 +7,46 @@ Concepts > Tools
 * _Distributed systems_
   * _Concepts_
     * Fallacies of distributed computing
+    * Synchronous vs. asynchronous
+    * Event log vs. message queue
+    * Exactly-once delivery
     * Different types of message failure
+    * Orchestration vs. choreography
     * Average connection speed of a user
-    * Byzantine fault-tolerance
     * Causality
     * CDN
-    * Consistent hashing
-    * Geohashing
-    * Perfect hashing
-    * Event log vs. message queue
-    * CQRS
-    * Event sourcing
+    * _Hashing_
+      * Consistent hashing
+      * Geohashing
+      * Perfect hashing
     * Read-heavy vs. write-heavy impacts
-    * Exactly-once delivery
     * Federation
-    * FLP impossibility
     * _Latency_
       * Latency, throughput, goodput
       * Latency numbers every programmer should know
       * How to prevent latency variability
       * Tail latency
     * How to reduce sharing
-    * HDFS
     * Idempotency
-    * Layer 4 vs. layer 7 load balancer
-    * Liveness vs. safety proprties
-    * Locality performance optimization
-    * MapReduce
+    * _Load balancer_
+      * Concepts
+      * Layer 4 vs. layer 7 load balancer
+    * Liveness vs. safety properties
     * Microservices: pros and cons
-    * Multi-tenant vs. multi-single-tenant
-    * Orchestration vs. choreography
     * REST
     * gRPC
     * Service mesh
     * Source of truth
     * Stateful vs. stateless
-    * Synchronous vs. asynchronous
     * Total vs. partial order
     * Why can't we rely on the system clock in distributed systems
+    * Vector clock
   * _Cache_
     * When to use a cache
     * Cache-aside vs. read-through
     * Eviction policy
     * Refresh-ahead
     * Write-through vs. write-back
-    * Different cache locations (client caching, CDN, in-memory, database, etc.)
     * Distributed cache
     * Performance cache vs. capacity cache
   * _Databases_
@@ -78,6 +73,8 @@ Concepts > Tools
     * Concurrency control
     * Consistency models
     * Isolation levels
+    * Serializability
+    * Linearizability
     * CRDT
     * _Indexes_
       * Tradeoff
@@ -86,20 +83,13 @@ Concepts > Tools
     * View & materialized view
     * Transaction
     * Distributed transactions downsides
-    * Fencing token
-    * Gossip
-    * Durability in objects-based storage
-    * Hinted handoff
     * Strategies to handle rebalancing
-    * LWW
     * Leader election
     * MVCC
     * N+1 select problem
     * Quorum
     * Raft
     * Read repair
-    * Serializability
-    * Linearizability
     * Single-leader, multi-leader, leaderless replication
     * Split-brain
     * 2PC
@@ -113,12 +103,11 @@ Concepts > Tools
     * LSM tree
     * B-tree
     * Merkle tree
-    * Quadtree
     * SSTable
-    * Vector clock
 * _Reliability_
   * _Concepts_
     * Difference between availability, resiliency, robustness, fault-tolerance, and reliability
+    * Why is it wrong to target 100% availability
     * Blast radius
     * Failure domain
     * Cascading failures
@@ -127,12 +116,10 @@ Concepts > Tools
       * Concepts
       * Knee point
       * Ceiling
-    * Number one source of outages (change)
+    * Number one source of outages
     * Tail tolerance
-    * Why is it wrong to target 100% availability
     * SRE role
     * Toil
-    * MTTR/MTTD
   * _Patterns/Anti-patterns_
     * Bulkhead pattern
     * Circuit breaker
@@ -188,6 +175,9 @@ Concepts > Tools
     * SLO for data (freshness, completeness, consistency, etc.)
     * SLO for mobiles
     * SLO for services
+* _Container_
+  * Container
+  * Container orchestration
 * _Analysis_
   * Core analysis loop
   * Correlation vs. causation
@@ -198,11 +188,17 @@ Concepts > Tools
     * Incident roles
     * How to write a postmortem
     * 3C principles (Coordinate, Communicate, maintain Control)
+* _Linux_
+  * Scripting
+  * Filesystem
+  * Memory
+  * Processes
+  * Resource utilization
+  * Network
 * _Network_
   * ARP protocol
   * Bandwidth
   * BGP
-  * Bufferbloat
   * CoDel
   * CORS
   * DNS
@@ -221,7 +217,6 @@ Concepts > Tools
   * NTP
   * OSI model
   * Routers
-  * STP
   * Switch
   * Network topologies
   * What happens if you type google.com in your browser
@@ -237,3 +232,10 @@ Concepts > Tools
   * Signature
 * _Other_
   * Backward vs. forward compatibility
+  * Version control
+* _Soft skills_
+  * _Communication_
+    * Writing
+    * Oral
+    * Presentation
+  * Problem solving
