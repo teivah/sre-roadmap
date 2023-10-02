@@ -1,6 +1,6 @@
 # SRE Roadmap
 
-An opinionated roadmap to become SRE -- Concepts > Tools
+An opinionated roadmap to become SRE (Concepts > Tools)
 
 * _Distributed systems_
   * _Concepts_
