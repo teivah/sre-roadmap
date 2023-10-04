@@ -6,7 +6,7 @@ An opinionated roadmap to become an SRE (Concepts > Tools)
 ## Distributed systems
 
 * _Concepts_
-* Fallacies of distributed computing
+  * Fallacies of distributed computing
   * Synchronous vs. asynchronous
   * Event log vs. message queue
   * Exactly-once delivery
