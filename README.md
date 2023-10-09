@@ -231,18 +231,23 @@ An opinionated roadmap to become an SRE (Concepts > Tools)
 * TLS
 * PKI
 * Signature
-   
-## Analysis
 
-* Core analysis loop
-* Correlation vs. causation
-* First principle
-* Five whys technique
-* _Incident management_
-  * How to address an incident (assess, mitigate, resolve)
-  * Incident roles
-  * How to write a postmortem
-  * 3C principles (Coordinate, Communicate, maintain Control)
+## Incident management
+
+* How to address an incident (assess, mitigate, resolve)
+* Incident response roles
+  * Incident Commander (IC)
+  * Communications Lead (CL)
+  * Operations Lead (OL)
+* How to write an incident state document
+* How to write a postmortem
+* 3C principles (Coordinate, Communicate, maintain Control)
+* RACI vs SRE
+* _Analysis_
+  * Core analysis loop
+  * Correlation vs. causation
+  * First principle
+  * Five whys technique
   
 ## Other
 
@@ -255,6 +260,7 @@ An opinionated roadmap to become an SRE (Concepts > Tools)
   * Writing
   * Oral
   * Presentation
+  * First of Five
 * Collaboration
 * Problem solving
 * Curiosity
