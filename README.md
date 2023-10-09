@@ -255,6 +255,7 @@ An opinionated roadmap to become an SRE (Concepts > Tools)
   * Writing
   * Oral
   * Presentation
+  * The XY problem
 * Collaboration
 * Problem solving
 * Curiosity
