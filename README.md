@@ -243,7 +243,8 @@ An opinionated roadmap to become an SRE (Concepts > Tools)
 * How to write a postmortem
 * 3C principles (Coordinate, Communicate, maintain Control)
 * RACI vs SRE
-* _Analysis_
+
+## Analysis
   * Core analysis loop
   * Correlation vs. causation
   * First principle
